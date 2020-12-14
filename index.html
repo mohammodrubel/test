@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+  <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <!-- google fonts  -->
+         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <!-- font awesome css link  -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <!-- custom css link  -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- responsive css link  -->
+        <link rel="stylesheet" href="css/media.css">
+        <title>Bondi</title>
+  </head>
+  <body>
+     <!-- start header section  -->
+        <header>
+          <div class="container">
+            <div class="row">
+                <!-- start nav  -->
+                <nav class="navbar navbar-expand-lg navbar-light">
+                  <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img src="img/logo.png" alt="bondilogo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse menu" id="nav-content">
+                      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Service</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Protfolio</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">about</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">contact</a>
+                        </li>
+                        
+                      </ul>
+                      <!-- search  -->
+                      <div class="dropdown  search">
+                        <button class="btn btn-custom" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                          <i class="fas fa-search"></i>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-custom" aria-labelledby="dropdownMenuButton">
+                          <form class="d-flex">
+                            <input class="form-control me-2 search-input" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn custom-outline-btn" type="submit">Search</button>
+                          </form>
+                        </ul>
+                      </div>
+                      <!-- search  -->
+                      <!-- login  -->
+                      <div class="logi-reper">
+                        <button type="button" class="btn login-button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                          Login
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">
+                                <!-- login-form  -->
+                                <div class="mb-3 row">
+                                  <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                                  <div class="col-sm-10">
+                                    <input type="text" readonly class="form-control-plaintext" id="staticEmail"placeholder="enter your email">
+                                  </div>
+                                </div>
+                                <div class="mb-3 row">
+                                  <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                                  <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword">
+                                  </div>
+                                </div>
+                                <!-- login-form  -->
+                              </div>
+                              <div class="modal-footer">
+                                <button type="email" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn login-button">Login</button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <!-- login  -->
+                    </div>
+                  </div>
+                </nav>  
+                <!--end nav-->
+            </div>
+          </div>  
+        </header>
+     <!-- end header section  -->
+     <!-- start banner section  -->
+     <section class="banner">
+          <div class="content">
+            <h1 class="h1">Taste the Creativity</h1>
+          <p class="p">We make awesome graphic and web design</p>
+          <button class="btn common-button">Get Start</button>
+          </div>
+     </section>
+     <!-- end banner section  -->
+     <!-- start service section  -->
+     <section class="service">
+       <div class="container">
+         <div class="row">
+           <div class="service-main-content text-center">
+             <img src="img/comon logo.png" class="img-fluid" alt="bondi_common-img">
+             <h1 class="comon-h1">We are Good at </h1>
+             <p class="p">SOME OF THEASE STUFF UNDER</p>
+             <hr class="common-hr mx-auto">
+           </div>
+           <div class="row">
+             <div class="col-md-4 number1">
+                <div class="service-full-content text-center">
+                  <img src="img/service1.png" alt="service1">
+                  <h6 class="service-h6">GRAPHIC DESIGN</h6>
+                  <p class="service-p">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                </div>
+             </div>
+             <div class="col-md-4 number2">
+              <div class="service-full-content text-center">
+                <img src="img/service2.png" alt="service1">
+                <h6 class="service-h6">WEB DESIGN</h6>
+                <p class="service-p">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+              </div>
+           </div>
+           <div class="col-md-4 number3">
+            <div class="service-full-content text-center">
+              <img src="img/service3.png" alt="service1">
+              <h6 class="service-h6">APP DESIGN</h6>
+              <p class="service-p">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+            </div>
+         </div>
+           </div>
+         </div>
+       </div>
+     </section>
+     <!-- end service section   -->
+     <!-- start design section  -->
+     <section class="design">
+       <div class="container">
+         <div class="row">
+          <div class="service-main-content text-center">
+            <img src="img/comon logo.png" class="img-fluid" alt="bondi_common-img">
+            <h1 class="comon-h1">We Make This</h1>
+            <p class="p">PREPARE TO BE AMAZED</p>
+            <hr class="common-hr mx-auto">
+          </div>
+         </div>
+         <div class="row">
+          <div class="btn-grp">
+            <button type="button" class="btn  group-button active1">All</button>
+            <button type="button" class="btn  group-button">Design</button>
+            <button type="button" class="btn  group-button">Code</button>
+            <button type="button" class="btn  group-button">photography</button>
+            <button type="button" class="btn  group-button">Apps</button>
+          </div>
+         </div>
+       </div>
+       <div class="container">
+         <div class="row">
+           <div class="col-lg-3 col-sm-6">
+             <div class="box text-center">
+              <i class="fas fa-code"></i>
+              <h4>web development</h4>
+             </div>
+           </div>
+           <div class="col-lg-3 col-sm-6">
+             <div class="box text-center">
+              <i class="fas fa-crop"></i>
+              <h4>graphic organizer</h4>
+             </div>
+           </div>
+           <div class="col-lg-3 col-sm-6">
+             <div class="box text-center">
+              <i class="fas fa-icons"></i>
+              <h4>photography</h4>
+             </div>
+           </div>
+           <div class="col-lg-3 col-sm-6">
+             <div class="box text-center">
+              <i class="fas fa-tablet"></i>
+              <h4>apps development</h4>
+             </div>
+           </div>
+         </div>
+         <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="box text-center">
+              <i class="fab fa-whatsapp"></i>
+              <h4>apps development</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box text-center">
+              <i class="fas fa-camera"></i>
+             <h4>photo gallery</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box text-center">
+              <i class="fab fa-sketch"></i>
+             <h4>Ruby language</h4>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="box text-center">
+              <i class="fas fa-laptop-code"></i>
+             <h4>Coder</h4>
+            </div>
+          </div>
+        </div>
+        <div class="design-button text-center mt-2">
+          <button class="btn common-button"> I WANT MORE...</button>
+        </div>
+       </div>
+     </section>
+   <!-- end design section  -->
+   <!-- start retina section  -->
+   <section class="retina">
+     <div class="container">
+       <div class="row">
+        <div class="service-main-content  text-center">
+          <img src="img/comon logo.png" class="img-fluid" alt="bondi_common-img">
+          <h1 class="comon-h1">Some Stuff About Us</h1>
+          <p class="p">THE GREAT TEAM</p>
+          <hr class="common-hr mx-auto">
+         <div class="col-md-7 mx-auto">
+          <p class="p retina-head">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.
+            
+          </p>
+         </div>
+        </div>
+       </div>
+       <div class="row">
+         <div class="col-lg-5 col-md-6 col-sm-6 col-12 blog-reper">
+          <h3 class="blog">Retina Design</h3>
+          <p class="p">Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. </P>
+            
+            <P class="p"> Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+              <button class="common-button">
+                OREDER ME ONE
+               </button>
+         </div>
+         <div class="col-lg-7 col-md-6 col-sm-6 col-12">
+            <div class="led text-center">
+              <img src="img/tv.png" class="img-fluid" alt="bondiled">
+            </div>
+         </div>
+         
+       </div>
+     </div>
+   </section>
+   <!-- end retina section  -->
+   <!-- start team section  -->
+   <section class="team">
+     <div class="container">
+       <div class="row justify-content-center">
+        <div class=" col-lg-10 team-hilight">
+          <h1 class="team-color-h1">Meet the Team</h1>
+          <p class="p">Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.
+          </p>
+        </div>
+       </div>
+     </div>
+     <div class="container">
+       <div class="row mx-auto justify-content-center">
+         <div class=" col-lg-3 col-md-6">
+           <div class="box-card justify-content-center">
+            <img src="img/team4.png" class="card-img-top img-fluid" alt="...">
+                <h5 class="card-title card-name">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>  
+        </div>
+        <div class=" col-lg-3 col-md-6">
+          <div class="box-card justify-content-center">
+           <img src="img/team4.png" class="card-img-top img-fluid" alt="...">
+               <h5 class="card-title card-name">Card title</h5>
+               <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+         </div>  
+       </div>
+       <div class=" col-lg-3 col-md-6">
+        <div class="box-card justify-content-center">
+         <img src="img/team4.png" class="card-img-top img-fluid" alt="...">
+             <h5 class="card-title card-name">Card title</h5>
+             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+       </div>  
+     </div>
+     <div class=" col-lg-3 col-md-6">
+      <div class="box-card justify-content-center">
+       <img src="img/team4.png" class="card-img-top img-fluid" alt="...">
+           <h5 class="card-title card-name">Card title</h5>
+           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+     </div>  
+   </div>
+      </div>
+    </div>
+    </section>
+   <!-- end team section  -->
+
+
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script src="js/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>

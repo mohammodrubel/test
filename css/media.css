@@ -1,0 +1,207 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    /* bassic custom none */
+    .search
+    {
+        display: none;
+    }
+    /* bassic custom none */
+     /* start header  */
+     .menu ul li a {
+        text-align: right;
+
+    }
+    
+    .logi-reper
+    {
+        text-align: right;
+    }
+    
+    .dropdown-menu-custom {
+        top: 0%;
+        left: 0px; 
+        background: none;  
+    }
+    .search-input{
+        background: transparent;
+        border: none;
+    }
+/* end header  */
+ /* start banner section  */
+    .h1{
+        font-family: 'Roboto', sans-serif;
+        font-size: 23px;
+    }
+    .p {
+        font-size: 15px;
+        color: #a8b9c0;
+    }
+    .common-button {
+        margin-top: 8px;
+        width: 162px;
+        height: 37px;
+    }
+/* end banner section  */
+
+        .blog-reper {
+            margin-top: 15px;
+        }
+        .retina {
+            margin-top: 35px;
+            text-align: center;
+        }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* bassic custom none */
+    .search
+    {
+        display: none;
+    }
+    /* bassic custom none */
+     /* start header  */
+     .menu ul li a {
+        text-align: right;
+
+    }
+    .search
+    {
+        text-align: right;
+    }
+    .logi-reper
+    {
+        text-align: right;
+    }
+    .dropdown-menu-custom {
+        top: 0%;
+        left: 164px; 
+        background: none;  
+    }
+    .search-input{
+        background: transparent;
+        border: none;
+    }
+    /* end header  */
+    /* start banner section  */
+    .h1{
+        font-family: 'Roboto', sans-serif;
+        font-size: 32px;
+    }
+    .p {
+        font-size: 15px;
+        color: #a8b9c0;
+    }
+    .common-button {
+        margin-top: 14px;
+        width: 175px;
+        height: 40px;
+    }
+    .led 
+    {
+        margin-top: 80px;
+    }
+    .blog-reper{
+        margin-top: 10px;
+    }
+    .blog-reper {
+        margin-top: 15px;
+    }
+/* end banner section  */
+    /* team section  */
+    .team-member,
+    .team-box{
+        text-align: center;
+    
+}
+    /* end team sectino  */
+
+    }
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* bassic custom none */
+    /* bassic custom none */
+    /* start nav  */
+    /* start header  */
+        .menu ul li a {
+            text-align: right;
+
+        }
+        .search
+        {
+            text-align: right;
+        }
+        .logi-reper
+        {
+            text-align: right;
+        }
+        .dropdown-menu-custom {
+            top: 0%;
+            left: 164px; 
+            background: none;  
+        }
+        .search-input{
+            background: transparent;
+            border: none;
+        }
+    /* end header  */
+     /* start banner section  */
+     .h1{
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+    }
+    /* end banner section  */
+    /* end banner section  */
+       /* retina section  */
+       .blog-reper{
+        margin-top: 10px;
+    }
+    .led 
+    {
+        margin-top: 30px;
+    }
+/* end retina section */
+   
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* start banner section  */
+    .h1{
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+    }
+    /* end banner section  */
+       /* retina section  */
+        .blog-reper{
+            margin-top: 50px;
+        }
+        .led{
+            margin-top: 20px;
+        }
+        
+    /* end retina section */
+}
+
+/*x-large devices (dekstops,1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    
+}
+
+/*x-large devices (dekstops,1200px and up) */
+@media (min-width: 1400px) and (max-width: 1499.98px) {
+    
+}
+
+
+/*x-large devices (dekstops,1200px and up) */
+@media (min-width: 1500px) and (max-width: 1699.98px) {
+    
+}
+
+
+/*x-large devices (dekstops,1200px and up) */
+@media (min-width: 1700px){
+    
+}
